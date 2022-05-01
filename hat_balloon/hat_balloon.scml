@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+	<folder id="0" name="swap_hat">
+		<file id="0" name="swap_hat/swap_hat-0.png" width="313" height="224" pivot_x="0.561342" pivot_y="-0.416741" />
+		<file id="1" name="swap_hat/swap_hat-1.png" width="252" height="265" pivot_x="0.738103" pivot_y="-0.215542" />
+		<file id="2" name="swap_hat/swap_hat-2.png" width="286" height="227" pivot_x="0.534003" pivot_y="-0.307214" />
+		<file id="3" name="swap_hat/swap_hat-3.png" width="286" height="240" pivot_x="0.510927" pivot_y="0.188958" />
+	</folder>
+	<entity id="0" name="balloonhat">
+		<animation id="0" name="anim" length="134">
+			<mainline>
+				<key id="0" time="0">
+					<object_ref id="0" name="swap_hat" abs_x="0" abs_y="0" abs_pivot_x="0.510927" abs_pivot_y="0.188958" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="1" />
+				</key>
+				<key id="1" time="34">
+					<object_ref id="0" name="swap_hat" abs_x="0" abs_y="0" abs_pivot_x="0.510927" abs_pivot_y="0.188958" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="1" z_index="1" />
+				</key>
+				<key id="2" time="67">
+					<object_ref id="0" name="swap_hat" abs_x="0" abs_y="0" abs_pivot_x="0.510927" abs_pivot_y="0.188958" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="2" z_index="1" />
+				</key>
+				<key id="3" time="100">
+					<object_ref id="0" name="swap_hat" abs_x="0" abs_y="0" abs_pivot_x="0.510927" abs_pivot_y="0.188958" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="3" z_index="1" />
+				</key>
+				<key id="4" time="134">
+					<object_ref id="0" name="swap_hat" abs_x="0" abs_y="0" abs_pivot_x="0.510927" abs_pivot_y="0.188958" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="4" z_index="1" />
+				</key>
+			</mainline>
+			<timeline id="0" name="swap_hat">
+				<key id="0" time="0" spin="1">
+					<object folder="0" file="3" x="6.8" y="-6.4" scale_x="0.776825" scale_y="0.77681" angle="0" />
+				</key>
+				<key id="1" time="34" spin="1">
+					<object folder="0" file="3" x="6.8" y="-6.4" scale_x="0.776825" scale_y="0.77681" angle="0" />
+				</key>
+				<key id="2" time="67" spin="1">
+					<object folder="0" file="3" x="6.8" y="-6.4" scale_x="0.776825" scale_y="0.77681" angle="0" />
+				</key>
+				<key id="3" time="100" spin="1">
+					<object folder="0" file="3" x="6.8" y="-6.4" scale_x="0.776825" scale_y="0.77681" angle="0" />
+				</key>
+				<key id="4" time="134" spin="1">
+					<object folder="0" file="3" x="6.8" y="-6.4" scale_x="0.776825" scale_y="0.77681" angle="0" />
+				</key>
+			</timeline>
+		</animation>
+	</entity>
+</spriter_data>
